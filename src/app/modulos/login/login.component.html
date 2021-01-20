@@ -1,0 +1,34 @@
+<!-- <p>login works!</p> -->
+<body style="height: 100vh;">
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+        <!-- Tabs Titles -->
+        <h2 class="active"> Formulario COVID-19</h2>
+
+        <!-- <h2 class="inactive underlineHover">Sign Up </h2> -->
+
+        <!-- Icon -->
+        <div class="fadeIn first">
+            <img src="assets/img/logoEsSalud.jpg" id="icon" alt="Imagen/icono" />
+        </div>
+
+        <!-- Login Form -->
+            <form>
+                <select class="form-control" style="height: 3.5rem;">
+                    <option>DNI</option>
+                    <option>CE</option>
+                </select>
+            
+                <input class="form-control" id="contrasena" type="text" name="nro" placeholder="Nro documento">
+                <!--  <input class="form-control" id="date" placeholder="Seleccione la fecha" type="date"> -->
+                
+                <button type="submit" class="login" [routerLink]="['/formulario']"> Ingresar </button>
+            </form>
+
+        <!-- Remind Passowrd -->
+        <div id="formFooter">
+            <a class="underlineHover" href="http://portal.essalud.gob.pe/" target="blank">EsSalud</a>
+        </div>
+        </div>
+    </div>
+</body>

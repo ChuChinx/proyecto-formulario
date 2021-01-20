@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+declare var jquery;
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
